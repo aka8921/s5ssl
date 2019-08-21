@@ -55,9 +55,9 @@ void main()
 
 
     
-    completion_t[0] = burst_t[0]+arrival_t[i];
-    tat[0] = completion_t[0] - arrival_t[i];
-    waiting_t[0]=tat[0] - burst_t[i]; 
+    completion_t[0] = burst_t[0]+arrival_t[0];
+    tat[0] = completion_t[0] - arrival_t[0];
+    waiting_t[0]=tat[0] - burst_t[0]; 
 
     for(i=1;i<n;i++)
     {
